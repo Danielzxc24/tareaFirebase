@@ -8,7 +8,7 @@ class NotesService {
     await _repository.addNota(nota);
   }
 
-  Stream<List<notasModel>> getNotas() {
+  Stream<List<notasModel>?> getNotas() {
     return _repository.getNotas();
   }
 

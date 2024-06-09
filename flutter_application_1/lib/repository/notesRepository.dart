@@ -8,7 +8,7 @@ class notasRepository {
     await _baseDatos.collection('notas').add(nota.toFirestore());
   }
 
-  Stream<List<notasModel>> getNotas() {
+  Stream<List<notasModel>?> getNotas() {
     return _baseDatos.collection('notas').snapshots().map((snapshot) =>
         snapshot.docs.map((doc) => notasModel.fromFirestore(doc)).toList());
   }
