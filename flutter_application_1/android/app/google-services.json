@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "668530911988",
+    "project_id": "tarea8-ba942",
+    "storage_bucket": "tarea8-ba942.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668530911988:android:f9f629426c3f8457a10ca1",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv1etku9m-6o4LjTD65qg50dLL0NgsSJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
